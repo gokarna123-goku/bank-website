@@ -430,8 +430,8 @@ li{
 }
 
 
-/* Courses Section */
-.courses_section{
+/* Loan Section */
+.loan_section{
     width: 100%;
     height: auto;
     padding: 100px;
@@ -441,7 +441,7 @@ li{
     gap: 1.5rem;
 }
 
-.courses_box{
+.loan_box{
     width: 100%;
     height: auto;
     display: flex;  
@@ -450,7 +450,7 @@ li{
     gap: 1.7rem;
     margin-bottom: 1.5rem;
 }
-.course_card{
+.loan_card{
     width: 380px;
     height: auto;
     display: flex;
@@ -464,23 +464,23 @@ li{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     flex-wrap: wrap;
 }
-.course_img{
+.loan_img{
     width: 100%;
     height: 35vh;
     object-fit: cover;
     object-position: center;
 }
-.course_data{
+.loan_data{
     padding: 20px;
 }
-.course_title{
+.loan_title{
     font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: 0.07rem;
     color: var(--secondary);
     margin-bottom: 1.2rem;
 }
-.course_desc{
+.loan_desc{
     font-size: 0.96rem;
     font-weight: 500;
     color: var(--fourth);
@@ -812,10 +812,10 @@ li{
         width: 100%;
         flex-wrap: wrap;
     }
-    .courses_section {
+    .loan_section {
         padding: 100px 30px;
     }
-    .courses_box {
+    .loan_box {
         flex-wrap: wrap;
     }
     .gallery_section {
