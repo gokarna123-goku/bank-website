@@ -43,7 +43,7 @@ li{
     --secondary: #e24806;
     --tertiary: #f4f4f4;
     --fourth : #a7a7a7;
-    --linear-background: linear-gradient(45deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.54));
+    --linear-background: linear-gradient(45deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.64));
     --linear-background-destination: linear-gradient(to bottom,rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.80));
 }
 
@@ -152,7 +152,8 @@ li{
 /* Navbar & Hero Background Image Section */
 .bg_image_section{
     width: 100%;
-    background: var(--linear-background), url("https://cdn.pixabay.com/photo/2017/08/01/01/28/people-2562626_960_720.jpg") no-repeat;
+    /* background: var(--linear-background), url("https://cdn.pixabay.com/photo/2015/12/03/11/12/finance-1074727_960_720.jpg") no-repeat; */
+    background: var(--linear-background), url("https://cdn.pixabay.com/photo/2015/01/02/10/30/finance-586404_960_720.jpg") no-repeat;
     background-size: cover;
     background-position: center right;
     height: 100vh;
@@ -291,10 +292,10 @@ li{
     gap: 1.5rem;
 }
 .service_card{
-    width: 370px;
+    width: 230px;
     height: auto;
     background: var(--tertiary);
-    padding: 40px 30px;
+    padding: 20px 20px;
     border-radius: 6px;
     text-align: center;
     display: flex;
@@ -303,8 +304,8 @@ li{
     flex-direction: column;
 }
 .service_icon_box{
-    width: 120px;
-    height: 150px;
+    width: 80px;
+    height: 100px;
     margin-bottom: 1.0rem;
 }
 .service_icon_box img{
@@ -316,13 +317,7 @@ li{
     font-weight: 600;
     letter-spacing: 0.05rem;
     color: var(--primary);
-    margin-bottom: 0.3rem;
-}
-.service_desc{
-    font-size: 0.95rem;
-    line-height: 1.2rem;
-    color: var(--fourth);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
 }
 .learn_more{
     width: 100%;
